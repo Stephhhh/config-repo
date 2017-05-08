@@ -1,3 +1,6 @@
+server:
+  port: 8084
+
 eureka:
   client:
     serviceUrl:
@@ -5,4 +8,4 @@ eureka:
 spring:
   cloud:
     config:
-      uri: http://config:8080
+      uri: http://config:8084
