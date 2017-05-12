@@ -1,0 +1,8 @@
+server:
+  port: 8088
+
+zuul:
+  routes:
+    root-service:
+      path: /rooty/**
+      url: http://user:8086/
